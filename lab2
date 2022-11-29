@@ -1,0 +1,99 @@
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("number is Even")
+else:
+   print("number is Odd")
+   
+   
+   
+   num = float(input("Enter a number: "))
+if num > 0:
+   print("Positive number")
+elif num == 0:
+   print("Zero")
+else:
+   print("Negative number")
+   
+   
+   
+   num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+
+if (num1 >= num2) and (num1 >= num3):
+   largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+   largest = num2
+else:
+   largest = num3
+
+print("The largest number is", largest)
+
+
+
+i = 1
+while i <= 100:
+    if(i % 4 != 0) and (i % 7 != 0):
+        print(i)
+    i = i + 1
+    
+    
+    
+    
+    i = 2
+while i <= 100:
+    print(i)
+    i = i + 2
+    
+    
+    
+    
+    
+    num = int(input("Enter the number:"))
+
+if num < 0:
+   print("Enter a positive number")
+else:
+   sum = 0
+   while(num > 0):
+       sum += num
+       num -= 1
+   print("The sum is", sum)
+   
+   
+   
+   
+   
+   rows = int(input("Enter number of rows: "))
+
+for i in range(rows):
+    for j in range(i+1):
+        print("* ", end="")
+    print("\n")
+    
+    
+    
+    
+    rows = int(input("Enter number of rows: "))
+
+for i in range(rows, 0, -1):
+    for j in range(0, i):
+        print("* ", end=" ")
+    
+    print("\n")
+    
+    rows = int(input("Enter number of rows: "))
+
+for i in range(rows):
+    for j in range(i+1):
+        print(j+1, end=" ")
+    print("\n")
+    
+    
+    rows = int(input("Enter number of rows: "))
+
+for i in range(rows):
+    for j in range(i+1):
+        print(j+1, end=" ")
+    print("\n")
+    
